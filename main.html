@@ -27,6 +27,22 @@
 				<div class="ryu-ready"></div>
 
 				<div class="ryu-throwing"></div>
+				<div class="ryu-cool">
+					<script>
+ 					 addEventListener("keydown", function(event) {
+   					 if (event.keyCode == 86)
+      					 $('.ryu-cool').show();
+    					 $('.ryu-ready').hide();
+  					});
+ 					 addEventListener("keyup", function(event) {
+    				if (event.keyCode == 86)
+     				   $('.ryu-cool').hide();
+    					 $('.ryu-ready').show();
+     				});
+					</script>
+				</div>
+
+
 
 			</div>
 
