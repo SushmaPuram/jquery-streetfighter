@@ -1,7 +1,7 @@
 body {
 
 	background-color: black;
-	
+
 }
 .main {
 
@@ -51,19 +51,19 @@ body {
 	z-index: 10;
 }
 
-.top, .bottom {
+.instructions-top, .instructions-bottom {
   position: absolute;
   font-family: 'Open Sans', sans-serif;
   font-size: 18pt;
   line-height: 40px;
 }
 
-.top {
+.instructions-top {
   top: 110px;
   left: 470px;
 }
 
-.bottom {
+.instructions-bottom {
   top:240px;
   left: 650px;
 }
